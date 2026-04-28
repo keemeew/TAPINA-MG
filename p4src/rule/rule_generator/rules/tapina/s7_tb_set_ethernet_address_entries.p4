@@ -1,0 +1,12 @@
+(0,7,1,4,0,11) : set_adder(0x000000000709, 0x000000000907); // job 1, src h11, path s4->s7->s9->s5->s1, uplink
+(0,7,1,4,1,11) : set_adder(0x000000000704, 0x000000000407); // job 1, src h11, path s4->s7->s9->s5->s1, downlink
+(0,7,2,4,0,7) : set_adder(0x000000000709, 0x000000000907); // job 2, src h7, path s3->s7->s9->s5->s1, uplink
+(0,7,2,4,1,7) : set_adder(0x000000000703, 0x000000000307); // job 2, src h7, path s3->s7->s9->s5->s1, downlink
+(0,7,2,4,0,11) : set_adder(0x000000000709, 0x000000000907); // job 2, src h11, path s4->s7->s9->s5->s1, uplink
+(0,7,2,4,1,11) : set_adder(0x000000000704, 0x000000000407); // job 2, src h11, path s4->s7->s9->s5->s1, downlink
+(0,7,4,4,0,1) : set_adder(0x000000000703, 0x000000000307); // job 4, src h1, path s1->s5->s9->s7->s3, uplink
+(0,7,4,4,1,1) : set_adder(0x000000000709, 0x000000000907); // job 4, src h1, path s1->s5->s9->s7->s3, downlink
+(0,7,4,4,0,5) : set_adder(0x000000000703, 0x000000000307); // job 4, src h5, path s2->s5->s9->s7->s3, uplink
+(0,7,4,4,1,5) : set_adder(0x000000000709, 0x000000000907); // job 4, src h5, path s2->s5->s9->s7->s3, downlink
+(0,7,4,4,0,11) : set_adder(0x000000000703, 0x000000000307); // job 4, src h11, path s4->s7->s3, uplink
+(0,7,4,4,1,11) : set_adder(0x000000000704, 0x000000000407); // job 4, src h11, path s4->s7->s3, downlink

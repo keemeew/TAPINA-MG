@@ -1,0 +1,10 @@
+(_, 1, 0, 0x0a000204) : set_egress_port(5, 0x000000000602, 0x000000000206); // job 1, src h4, path s2->s6->s1, uplink
+(_, 1, 1, 0x0a000204) : set_egress_port(1, 0x00000a000204, 0x00010a000204); // job 1, src h4, path s2->s6->s1, downlink
+(_, 1, 0, 0x0a000205) : set_egress_port(4, 0x000000000502, 0x000000000205); // job 1, src h5, path s2->s5->s1, uplink
+(_, 1, 1, 0x0a000205) : set_egress_port(2, 0x00000a000205, 0x00010a000205); // job 1, src h5, path s2->s5->s1, downlink
+(_, 2, 0, 0x0a000206) : set_egress_port(5, 0x000000000602, 0x000000000206); // job 2, src h6, path s2->s6->s1, uplink
+(_, 2, 1, 0x0a000206) : set_egress_port(3, 0x00000a000206, 0x00010a000206); // job 2, src h6, path s2->s6->s1, downlink
+(_, 4, 0, 0x0a000204) : set_egress_port(5, 0x000000000602, 0x000000000206); // job 4, src h4, path s2->s6->s10->s8->s3, uplink
+(_, 4, 1, 0x0a000204) : set_egress_port(1, 0x00000a000204, 0x00010a000204); // job 4, src h4, path s2->s6->s10->s8->s3, downlink
+(_, 4, 0, 0x0a000205) : set_egress_port(4, 0x000000000502, 0x000000000205); // job 4, src h5, path s2->s5->s9->s7->s3, uplink
+(_, 4, 1, 0x0a000205) : set_egress_port(2, 0x00000a000205, 0x00010a000205); // job 4, src h5, path s2->s5->s9->s7->s3, downlink

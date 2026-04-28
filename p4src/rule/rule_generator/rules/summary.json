@@ -1,0 +1,138 @@
+{
+  "jobs": {
+    "1": {
+      "workers": [
+        "h2",
+        "h4",
+        "h5",
+        "h8",
+        "h10",
+        "h11"
+      ],
+      "model_size": 1
+    },
+    "2": {
+      "workers": [
+        "h2",
+        "h6",
+        "h7",
+        "h11"
+      ],
+      "model_size": 1
+    },
+    "3": {
+      "workers": [
+        "h2",
+        "h3",
+        "h9"
+      ],
+      "model_size": 1
+    },
+    "4": {
+      "workers": [
+        "h1",
+        "h2",
+        "h4",
+        "h5",
+        "h9",
+        "h11"
+      ],
+      "model_size": 1
+    },
+    "5": {
+      "workers": [
+        "h2",
+        "h7",
+        "h9",
+        "h12"
+      ],
+      "model_size": 1
+    }
+  },
+  "agg_switch": {
+    "1": "s1",
+    "2": "s1",
+    "3": "s7",
+    "4": "s3",
+    "5": "s3"
+  },
+  "tapina_switches": [
+    "s1",
+    "s3",
+    "s7"
+  ],
+  "normal_switches": [
+    "s2",
+    "s4",
+    "s5",
+    "s6",
+    "s8",
+    "s9",
+    "s10"
+  ],
+  "switch_to_jobs": {
+    "s1": [
+      1,
+      2
+    ],
+    "s7": [
+      3
+    ],
+    "s3": [
+      4,
+      5
+    ]
+  },
+  "switch_program_map": {
+    "s1": "tapina.p4",
+    "s2": "normal_forwarding_2.p4",
+    "s3": "tapina.p4",
+    "s4": "normal_forwarding_4.p4",
+    "s5": "normal_forwarding_5.p4",
+    "s6": "normal_forwarding_6.p4",
+    "s7": "tapina.p4",
+    "s8": "normal_forwarding_8.p4",
+    "s9": "normal_forwarding_9.p4",
+    "s10": "normal_forwarding_10.p4"
+  },
+  "multicast_groups": {
+    "1": [
+      "h2",
+      "h4",
+      "h5",
+      "h8",
+      "h10",
+      "h11"
+    ],
+    "2": [
+      "h2",
+      "h6",
+      "h7",
+      "h11"
+    ],
+    "3": [
+      "h2",
+      "h3",
+      "h9"
+    ],
+    "4": [
+      "h1",
+      "h2",
+      "h4",
+      "h5",
+      "h9",
+      "h11"
+    ],
+    "5": [
+      "h2",
+      "h7",
+      "h9",
+      "h12"
+    ]
+  },
+  "tapina_runtime_command_files": {
+    "s1": "tapina/s1_agg_runtime_commands.txt",
+    "s3": "tapina/s3_agg_runtime_commands.txt",
+    "s7": "tapina/s7_agg_runtime_commands.txt"
+  }
+}
