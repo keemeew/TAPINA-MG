@@ -1,8 +1,8 @@
-# TAPINA
+# TAPINA-MG
 Distributed machine learning can suffer from network bottlenecks during gradient aggregation. Programmable data planes enable in-network aggregation to mitigate this issue, but their limited resources make widespread deployment challenging. In this work, we study the problem of placing in-network aggregation functions in multi-tenant environments to minimize network traffic. We formulate the problem as an ILP and prove its NP-hardness. To address this, we propose TAPINA-MG, a traffic-aware placement algorithm based on a two-stage many-to-one matching game. Simulation results show that TAPINA-MG achieves near-optimal performance with low complexity, achieving up to 22.5%, 38.9%, and 96.0% reduction for network traffic, maximum link utilization, and job completion time, respectively, compared to state of the art, and effectively handles dynamic situations with minimal migration delay and comparable traffic performance..
 
-# Test for TAPINA
-This is a toy example of TAPINA based on the P4 language.
+# Test for TAPINA-MG
+This is a example test scenario of TAPINA-MG based on P4 software programmable switches.
 
 ## Dependencies
 To run this code, basic dependencies such as p4c, BMv2, Mininet and other libraries should be installed. 
