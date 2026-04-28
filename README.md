@@ -51,7 +51,7 @@ This repository provides an example scenario with 2-ary fat-tree topology.
 
    Note that this script enables generating rules for the TAPINA switches and normal switches under various configurations.
 
-4. Configure the network and install the FAT-INT program on BMv2 switches.
+4. Configure the network by Mininet and install the compiled program on BMv2 switches.
    ```
    (Terminal 2) sudo python3 ~/TAPINA/network.py
    ```
