@@ -37,7 +37,7 @@ To run this code, basic dependencies such as p4c, BMv2, Mininet and other librar
 
 4. [Mininet](https://github.com/mininet/mininet)
 
-## BMv2 Instructions
+## Instructions
 This repository provides an example scenario with 2-ary fat-tree topology. 
 
 1. Download the repository to the local.
